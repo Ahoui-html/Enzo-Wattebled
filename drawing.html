@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>drawings</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>DRAWINGS</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> RETURN</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="3D.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <p>I like to draw in my free time, here you can see some of my work. Also training at digital drawing.</p>
+                </div>
+                <div class="text-content-right">
+                </div>
+            </div>
+        </main>
+
+        <div class="visual-content" id="macy-content">
+            <img src="img_drawing/bg_drawing.jpg" alt="group" />
+            <img src="img_drawing/des1.jpg" alt="home picture" />
+            <img src="img_drawing/des3.png" alt="immercive" />
+            <img src="img_drawing/dessin1.jpg" alt="maquette" />
+            <img src="img_drawing/dessin2.jpg" alt="maquette" />
+            <img src="img_drawing/dessin3.jpg" alt="maquette" />
+            <img src="img_drawing/dessin4.jpg" alt="maquette" />
+            <img src="img_drawing/dessin5.jpg" alt="maquette" />
+            <img src="img_drawing/dessin6.jpg" alt="maquette" />
+            <img src="img_drawing/dessin7.jpg" alt="maquette" />
+            <img src="img_drawing/dessin8.jpg" alt="maquette" />
+            <img src="img_drawing/dessin9.jpg" alt="maquette" />
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+</body>
+
+
+</html>

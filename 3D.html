@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>3D</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>3D</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> RETURN</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="chaos.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <p>Also making experiment with 3D for some projects and entertainment</p>
+                </div>
+                <div class="text-content-right">
+                </div>
+            </div>
+        </main>
+
+        <div class="visual-content" id="macy-content">
+            <img src="img_3D/bg-3D.jpg" alt="group" />
+            <img src="img_3D/1.jpg" alt="home picture" />
+            <img src="img_3D/14.png" alt="immercive" />
+            <img src="img_3D/12.jpg" alt="maquette" />
+            <img src="img_3D/7.jpg" alt="maquette" />
+            <img src="img_3D/9.jpg" alt="maquette" />
+            <img src="img_3D/2.jpg" alt="maquette" />
+            <img src="img_3D/3.jpg" alt="maquette" />
+            <img src="img_3D/4.jpg" alt="maquette" />
+            <img src="img_3D/5.jpg" alt="maquette" />
+            <img src="img_3D/8.jpg" alt="maquette" />
+            <img src="img_3D/6.jpg" alt="maquette" />
+            <img src="img_3D/11.jpg" alt="maquette" />
+            <img src="img_3D/13.jpg" alt="maquette" />
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+</body>
+
+
+</html>

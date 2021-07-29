@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>gally</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>GALLY</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> RETURN</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="drawing.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <p>Gally is a vocal assistant made in collaboration with the French insurer MAIF.</p>
+                    <p> The aim of this vocal assistant was to ease the access to all theMAIF’s juridic, social content and videos destined to teachers. </p>
+                    <p>Indeed they often face delicate situations: relations between student or/and parents, harassment … Gally plays the role of confident bound for young teachers who finds themself in an unknown situation. After the conversation, Gally
+                        offers documents, pieces of information, or videos linked to the teacher’s situation to guide him in his process</p>
+                </div>
+                <div class="text-content-right">
+                    <h4>MADE WITH</h4>
+                    <p>Alix GORA</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="visual-content" id="macy-content">
+            <img src="img_gally/bg-gally.png" alt="group" />
+            <img src="img_gally/design6.png" alt="night" />
+            <img src="img_gally/design1.png" alt="home picture" />
+            <img src="img_gally/design2.png" alt="home picture" />
+            <img src="img_gally/design3.png" alt="immercive" />
+            <img src="img_gally/design4.png" alt="maquette" />
+            <img src="img_gally/design5.png" alt="controler" />
+
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+</body>
+
+
+</html>
