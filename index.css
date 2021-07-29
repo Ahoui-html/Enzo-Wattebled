@@ -1,0 +1,159 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #8B8B8B;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+header {
+    height: 10%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: LeMurmure;
+    color: white;
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+h3 {
+    font-family: Format;
+    font-size: 0.5em;
+    color: #dfdfdf;
+    letter-spacing: 5px;
+}
+
+nav {
+    display: flex;
+    margin-left: 60px;
+    font-family: Format;
+    margin-top: 14vh;
+}
+
+li {
+    color: #C2C2C2;
+    font-size: 1em;
+    letter-spacing: 6px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li:hover {
+    color: white;
+}
+
+
+/*_____BACKGROUND CHANGE______*/
+
+.background_chg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -5;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -5;
+}
+
+.bg-chaos {
+    background-image: url(img_chaos/bg-chaos.jpg);
+}
+
+.bg-off {
+    background-image: url(img_off/bg-off.jpg);
+}
+
+.bg-raum {
+    background-image: url(img_raum/bg_raum.jpg);
+}
+
+.bg-runover {
+    background-image: url(img_runover/bg_runover.jpg);
+}
+
+.bg-gally {
+    background-image: url(img_gally/bg-gally.png);
+}
+
+.bg-drawing {
+    background-image: url(img_drawing/bg_drawing.jpg);
+}
+
+.bg-3D {
+    background-image: url(img_3D/bg-3D.jpg);
+}
+
+
+/*_____RESPONSIVE______*/
+
+@media screen and (max-width: 700px) {
+    .background_chg {
+        background-size: cover;
+        background-position: center;
+    }
+    .background {
+        background-size: cover;
+        background-position: center;
+    }
+    header {
+        margin-left: 7%;
+    }
+    nav {
+        margin-left: 7%;
+    }
+}
+
+
+/*_____FONTS______*/
+
+@font-face {
+    font-family: LeMurmure;
+    src: url(LeMurmure-Regular.woff2);
+}
+
+@font-face {
+    font-family: Format;
+    src: url(Format_1452.woff2);
+}
+
+
+/*_____CORRECTION______*/
+
+a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

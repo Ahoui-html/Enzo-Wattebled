@@ -1,0 +1,221 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #EDEDED;
+    font-size: 17px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    height: 100%;
+    width: 10%;
+    margin-left: 10px;
+    margin-top: 26px;
+    z-index: 2;
+}
+
+h1 {
+    transition: ease all .5s;
+    font-family: LeMurmure;
+    color: white;
+    font-size: 7em;
+    margin: 0;
+    letter-spacing: 10px;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: scale(-1);
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    right: 40px;
+    width: 100%;
+    top: 30px;
+    z-index: 1;
+}
+
+.btn {
+    width: 115px;
+    height: 30px;
+    background: linear-gradient(140deg, #F8F8F8 34.48%, #E8E8E8 81.78%);
+    box-shadow: 0px 4px 4px rgba(166, 166, 166, 0.08), 1px 1px 1px rgba(118, 118, 118, 0.08);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 2%;
+}
+
+.text-content {
+    display: flex;
+    width: 100%;
+}
+
+.text-content-left {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 35%;
+    margin-top: 50px;
+}
+
+.text-content-right {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 35%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.visual-content {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 2%;
+}
+
+.vod {
+    height: 100%;
+}
+
+.btn p:hover {
+    color: white;
+}
+
+
+/*_____RESPONSIVE______*/
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 100%;
+        margin-left: 18%;
+    }
+    .visual-content {
+        margin-left: 18%;
+    }
+    .text-content-left {
+        width: 40%;
+    }
+    .text-content-right {
+        width: 40%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .text-content-left {
+        width: 40%;
+    }
+    .text-content-right {
+        width: 40%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        width: 100vw;
+        margin-left: 18%;
+    }
+    .visual-content {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 6em;
+    }
+    .text-content-left {
+        width: 55%;
+    }
+    .text-content-right {
+        width: 55%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .text-content-left {
+        width: 50%;
+    }
+    .text-content-right {
+        width: 50%;
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .text-content {
+        flex-direction: column;
+    }
+    .text-content-right {
+        width: 80%;
+        margin-left: 0%;
+        margin-top: 0;
+    }
+    .text-content-left {
+        width: 80%;
+    }
+    h1 {
+        font-size: 5.3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text-content-right {
+        width: 80%;
+        margin-left: 0%;
+        margin-top: 0;
+    }
+    .text-content-left {
+        width: 80%;
+    }
+    h1 {
+        font-size: 3em;
+    }
+}
+
+
+/*_____FONTS______*/
+
+@font-face {
+    font-family: LeMurmure;
+    src: url(LeMurmure-Regular.woff2);
+}
+
+@font-face {
+    font-family: Format;
+    src: url(Format_1452.woff2);
+}
+
+
+/*_____CORRECTION______*/
+
+a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

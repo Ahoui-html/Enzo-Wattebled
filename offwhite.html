@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>offwhite</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>OFF-WHITE</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> RETURN</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="raum.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <p>After many research and analysis on the clothes brand OFF-WHITE, we needed to create a fashion that fit the universe of the brand.</p>
+                    <p>We depicted the best as we could the travel of the models through our miniaturized scene by using mapping and tangible elements.</p>
+                </div>
+                <div class="text-content-right">
+                    <h4>MADE WITH</h4>
+                    <p>Martin LAMIRE<br>Christophe LECONTE<br>Mayuko LOEILLOT<br>Alma STEINFELD</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="visual-content" id="macy-content">
+            <img src="img_off/pht1.jpg" alt="home picture" />
+            <img src="img_off/photo1.jpg" alt="home picture" />
+            <img src="img_off/photo2.jpg" alt="immercive" />
+            <img src="img_off/photo3.jpg" alt="maquette" />
+            <img src="img_off/photo4.jpg" alt="controler" />
+            <img src="img_off/photo5.jpg" alt="night" />
+            <img src="img_off/photo6.jpg" alt="group" />
+            <img src="img_off/photo7.jpg" alt="group" />
+            <img src="img_off/photo8.jpg" alt="group" />
+            <img src="img_off/photo9.jpg" alt="group" />
+            <img src="img_off/photo10.jpg" alt="group" />
+            <img src="img_off/photo11.jpg" alt="group" />
+            <img src="img_off/photo12.jpg" alt="group" />
+            <img src="img_off/photo13.jpg" alt="group" />
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+</body>
+
+
+</html>

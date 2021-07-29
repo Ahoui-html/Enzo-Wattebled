@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>raum#3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>RAUM#3</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> RETURN</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="runover.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <p>Realized during my internship at Ghostraum (Berlin), this installation comes from the idea to create an immersive and interactive shadow theatre. </p>
+                    <p>The final prototype offers a journey to the spectator where he can see himself moving into a shady world surrounded with soft lights and natural elements.</p>
+                    <p>It was a real opportunity to apply my technical knowledge (PureData, Arduino) earned from my last years at school.</p>
+                </div>
+                <div class="text-content-right">
+                    <h4>MADE WITH</h4>
+                    <p>Matthieu SCHMIT<br> Vera DÜNKEL<br> Jerome BLANCHI<br> Jamie THOMAS</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="visual-content" id="macy-content">
+            <img src="img_raum/photo12.jpg" alt="group" />
+            <img src="img_raum/photo1.jpg" alt="home picture" />
+            <img src="img_raum/photo2.jpg" alt="immercive" />
+            <img src="img_raum/photo3.jpg" alt="maquette" />
+            <img src="img_raum/photo4.jpg" alt="controler" />
+            <img src="img_raum/photo5.jpg" alt="night" />
+            <img src="img_raum/photo6.jpg" alt="group" />
+            <img src="img_raum/photo7.jpg" alt="group" />
+            <img src="img_raum/photo8.jpg" alt="group" />
+            <img src="img_raum/photo10.jpg" alt="group" />
+            <img src="img_raum/photo11.jpg" alt="group" />
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+</body>
+
+
+</html>
