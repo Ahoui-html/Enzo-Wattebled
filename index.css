@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #8B8B8B;
+    background-color: #2e2e2e;
     overflow: hidden;
     font-size: 17px;
 }
@@ -27,31 +27,41 @@ h1 {
     margin: 0;
 }
 
-h3 {
+h4 {
     font-family: Format;
     font-size: 0.5em;
     color: #dfdfdf;
     letter-spacing: 5px;
 }
 
+h3 {
+    font-family: Format;
+    font-size: 1.2em;
+    margin: 0;
+    color: #dfdfdf;
+}
+
 nav {
     display: flex;
+    flex-direction: column;
     margin-left: 60px;
     font-family: Format;
-    margin-top: 14vh;
+    margin-top: 9vh;
 }
 
 li {
     color: #C2C2C2;
-    font-size: 1em;
+    font-size: 0.8em;
     letter-spacing: 6px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style: none;
 }
 
 ul {
     padding: 0;
+    margin: 0;
+    margin-bottom: 3%;
 }
 
 li:hover {
@@ -85,12 +95,35 @@ li:hover {
     z-index: -5;
 }
 
-.bg-chaos {
-    background-image: url(img_chaos/bg-chaos.jpg);
+.bg-amply {
+    background-image: url(img_amply/bg-amply.png);
 }
 
-.bg-off {
+.bg-utopiales {
+    background-image: url(img_utopiales/bg-utopiales.png);
+}
+
+.bg-gally {
+    background-image: url(img_gally/bg-gally.png);
+}
+
+.bg-arkea {
+    background-image: url(img_arkea/bg-arkea.jpg);
+}
+
+
+/*_____________*/
+
+.bg-waves {
+    background-image: url(img_wave/bg-wave.jpg);
+}
+
+.bg-offwhite {
     background-image: url(img_off/bg-off.jpg);
+}
+
+.bg-chaos {
+    background-image: url(img_chaos/bg-chaos.jpg);
 }
 
 .bg-raum {
@@ -101,16 +134,12 @@ li:hover {
     background-image: url(img_runover/bg_runover.jpg);
 }
 
-.bg-gally {
-    background-image: url(img_gally/bg-gally.png);
-}
-
 .bg-drawing {
     background-image: url(img_drawing/bg_drawing.jpg);
 }
 
-.bg-3D {
-    background-image: url(img_3D/bg-3D.jpg);
+.bg-other {
+    background-image: url(img_other/3.png);
 }
 
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>W/A/V/E</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>W/A/V/E</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> RETURN</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="offwhite.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <p>W/A/V/E was created on the occasion of Art Macau. It will be exhibited at the House of Dancing Water in City of Dreams, from July 16 to end of October 2021.</p>
+                    <p>At the basis of this artwork is Thomas Roussel’s musical composition: waves of sound played by a 50-musician orchestra made up exclusively of string instruments (violins, cellos, violas and double basses).</p>
+                    <p>My role in this project was to explore different 3D landscape and abstract render linked to music's emotions and atmosphere.</p>
+                    <p>Videos had been designed by Aranud LAFFOND and me. Through the mediation of computer software made by Martial Geoffre Rouland, the installation tend to never run the same visual twice.</p>
+
+                    <h4><a href="https://w-av-e.com/" target="_blank">- CHECK THE INSTALATION NOW -</a></h4>
+                </div>
+                <div class="text-content-right">
+                    <h4>MADE WITH</h4>
+                    <p>
+                        <a href="https://www.screen-club.com/" target="_blank ">Martial GEOFFRE-ROLAND</a>
+                        <br>
+                        <a href="https://www.arnaudlaffond.com/ " target="_blank ">Arnaud LAFFOND</a>
+                        <br>
+                        <a href="https://www.thomasroussel.fr/ " target="_blank ">Thomas ROUSSEL</a>
+                        <br>
+                        <a href="https://robinmeier.net/ " target="_blank ">Robin MEIER</a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/ivanstriga/?originalSubdomain=fr " target="_blank ">Ivan STRIGA</a>
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="visual-content " id="macy-content ">
+            <img src="img_wave/animation.gif " alt="anim " />
+            <img src="img_wave/1.jpg " alt="visual2 " />
+            <img src="img_wave/2.jpg " alt="visual2 " />
+            <img src="img_wave/3.jpg " alt="visual2 " />
+            <img src="img_wave/4.jpg " alt="visual2 " />
+            <img src="img_wave/5.jpg " alt="visual2 " />
+            <img src="img_wave/6.jpg " alt="visual2 " />
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+
+
+</body>
+
+
+</html>

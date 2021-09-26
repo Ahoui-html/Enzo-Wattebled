@@ -101,6 +101,18 @@ main {
     color: white;
 }
 
+.btn h4:hover {
+    color: white;
+}
+
+h4 a:hover {
+    color: white;
+}
+
+p a:hover {
+    color: white;
+}
+
 
 /*_____RESPONSIVE______*/
 
