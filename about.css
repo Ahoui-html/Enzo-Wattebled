@@ -34,6 +34,18 @@ h3 {
     letter-spacing: 5px;
 }
 
+.text-content-left p {
+    margin: 0;
+}
+
+.text-content-left h4 {
+    margin: 0;
+}
+
+.text-content-right h4 {
+    margin-top: 0;
+}
+
 nav {
     margin-left: 60px;
     height: auto;
