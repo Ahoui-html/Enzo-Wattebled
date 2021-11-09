@@ -107,8 +107,12 @@ li:hover {
     background-image: url(img_gally/bg-gally.png);
 }
 
-.bg-arkea {
-    background-image: url(img_arkea/bg-arkea.jpg);
+.bg-other {
+    background-image: url(img_other/3.png);
+}
+
+.bg-msn {
+    background-image: url(img_msn/bg-msn.png);
 }
 
 
@@ -136,10 +140,6 @@ li:hover {
 
 .bg-drawing {
     background-image: url(img_drawing/bg_drawing.jpg);
-}
-
-.bg-other {
-    background-image: url(img_other/3.png);
 }
 
 
