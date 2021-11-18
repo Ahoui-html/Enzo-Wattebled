@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>stonks</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Josefin+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>STONKS</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <nav>
+                <div class="btn">
+                    <p><a href="index.html"> RETURN</a></p>
+                </div>
+
+                <div class="btn">
+                    <p><a href="voter.html"> NEXT</a></p>
+                </div>
+            </nav>
+            <div class="text-content">
+                <div class="text-content-left">
+                    <h5>Goals</h5>
+                    <p>Optimize STONKS company workflow and project management by creating a common platform for traders, project managers and freelancers.  </p>
+                    <br>
+                    <h5>Challenges</h5>
+                    <p>Respond quickly to customer project requests.</p>
+                    <p>Create different interfaces according to status and rights: salesperson, freelancer, project manager and administrator.</p>
+                    <p>Quickly associate a team to a project and tasks to freelancers.</p>
+                    <p>Link the different parties to have an optimized project follow-up.</p>
+                    <p>Have the project follow-up and exchange with the client centralized on the platform.</p>
+                    <p>Simplified financial management on each project </p>
+                    <br>
+                    <h5>Design method and tools</h5>
+                    <p>Interviews with the different interns of the company to define their needs on the platform.</p>
+                    <p>Decomposition of the architecture and creation of links between the different parties.</p>
+                    <p>Prioritization of tasks and key functionalities of the application </p>
+                    <p>Formatting of the functionalities with wireframes</p>
+                    <p>User tests on the interactive model created on Figma; change contribution and iterations with the team</p>
+                    <p>Realization of the graphic aspect (precise UI)</p>
+                </div>
+                <div class="text-content-right">
+                    <h4>PROJECT FOR STONKS, MADE WITH</h4>
+                    <p>
+                        <a href="https://www.linkedin.com/in/arthur-humeau/" target="_blank">Arthur HUMEAU</a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/alexandreteillet/" target="_blank">Alexandre TEILLET</a>
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <div class="visual-content" id="macy-content">
+            <img src="img_stonks/architecture.jpg" alt="mockup" />
+            <img src="img_stonks/UX.png" alt="mockup" />
+            <img src="img_stonks/UX1.png" alt="mockup" />
+            <img src="img_stonks/UX2.png" alt="mockup" />
+            <img src="img_stonks/UX3.png" alt="mockup" />
+            <img src="img_stonks/1.jpg" alt="mockup" />
+            <img src="img_stonks/1.png" alt="mockup" />
+            <img src="img_stonks/2.png" alt="mockup" />
+            <img src="img_stonks/3.png" alt="mockup" />
+
+        
+        </div>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        var masonry = new Macy({
+            container: '#macy-content',
+            trueOrder: true,
+            waitForImages: true,
+            useOwnImageLoader: false,
+            debug: false,
+            mobileFirst: false,
+            columns: 2,
+            margin: {
+                y: 20,
+                x: 20,
+            },
+            breakAt: {
+                760: 1,
+            },
+        });
+    </script>
+
+</body>
+
+
+</html>
