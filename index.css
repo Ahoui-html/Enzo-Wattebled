@@ -46,7 +46,7 @@ nav {
     flex-direction: column;
     margin-left: 60px;
     font-family: Format;
-    margin-top: 9vh;
+    margin-top: 4vh;
 }
 
 li {
@@ -93,6 +93,14 @@ li:hover {
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -5;
+}
+
+.bg-stonks {
+    background-image: url(img_stonks/bg-stonks.png);
+}
+
+.bg-voter {
+    background-image: url(img_voter/bg_voter.png);
 }
 
 .bg-amply {

@@ -24,11 +24,12 @@
 
             <h3>UX-UI DESIGN</h3>
             <ul>
+                <li><a onmouseover="myFunctionA(13)" onmouseout="myFunctionB(13)" href="stonks.html"> STONKS</a></li>
+                <li><a onmouseover="myFunctionA(12)" onmouseout="myFunctionB(12)" href="voter.html"> VOTER</a></li>
                 <li><a onmouseover="myFunctionA(1)" onmouseout="myFunctionB(1)" href="amply.html"> AMPLY</a></li>
                 <li><a onmouseover="myFunctionA(2)" onmouseout="myFunctionB(2)" href="utopiales.html"> UTOPIALES</a></li>
-                <li><a onmouseover="myFunctionA(11)" onmouseout="myFunctionB(11)" href="msn.html"> MAKE SOMME NOISE </a></li>
                 <li><a onmouseover="myFunctionA(3)" onmouseout="myFunctionB(3)" href="gally.html"> GALLY</a></li>
-                <li><a onmouseover="myFunctionA(4)" onmouseout="myFunctionB(4)" href="other.html"> WEBSITES</a></li>
+                <li><a onmouseover="myFunctionA(4)" onmouseout="myFunctionB(4)" href="other.html"> SHOWCASE WEBSITES</a></li>
             </ul>
             <br>
 
@@ -44,6 +45,7 @@
             </ul>
 
             <ul>
+                <li><a onmouseover="myFunctionA(11)" onmouseout="myFunctionB(11)" href="msn.html"> MAKE SOMME NOISE </a></li>
                 <li><a onmouseover="myFunctionA(10)" onmouseout="myFunctionB(10)" href="drawing.html"> DRAWINGS</a></li>
             </ul>
         </nav>
@@ -87,6 +89,12 @@
             if (a == 11) {
                 element.classList.toggle("bg-msn");
             }
+            if (a == 12) {
+                element.classList.toggle("bg-voter");
+            }
+            if (a == 13) {
+                element.classList.toggle("bg-stonks");
+            }
         }
 
         function myFunctionB(a) { // fonction qui supprime la class
@@ -123,6 +131,12 @@
             }
             if (a == 11) {
                 element.classList.remove("bg-msn");
+            }
+            if (a == 12) {
+                element.classList.remove("bg-voter");
+            }
+            if (a == 13) {
+                element.classList.remove("bg-stonks");
             }
         }
     </script>

@@ -35,6 +35,14 @@ h1 {
     transform: scale(-1);
 }
 
+h5{
+    margin: 5px;
+}
+
+ .text-content-left p{
+     margin: 5px;
+}
+
 nav {
     position: sticky;
     display: flex;
