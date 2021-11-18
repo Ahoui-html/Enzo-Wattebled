@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #2e2e2e;
+    background-color: #141414;
     overflow: hidden;
     font-size: 17px;
 }
@@ -42,7 +42,7 @@ h3 {
 }
 
 span{
-    color: rgb(0, 0, 0);
+    color: rgb(94, 94, 94);
     font-family: monospace;
     letter-spacing: 0;
 }
