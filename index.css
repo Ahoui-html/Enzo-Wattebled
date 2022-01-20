@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #141414;
+    background-color: #ffffff;
     overflow: hidden;
     font-size: 17px;
 }
@@ -21,7 +21,7 @@ header {
 
 h1 {
     font-family: LeMurmure;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2.5em;
     letter-spacing: 10px;
     margin: 0;
@@ -30,7 +30,8 @@ h1 {
 h4 {
     font-family: Format;
     font-size: 0.5em;
-    color: #dfdfdf;
+    color: #8B8B8B;
+    ;
     letter-spacing: 5px;
 }
 
@@ -38,11 +39,11 @@ h3 {
     font-family: Format;
     font-size: 1.2em;
     margin: 0;
-    color: #dfdfdf;
+    color: #4e4e4e;
 }
 
 span{
-    color: rgb(94, 94, 94);
+    color: #474747;
     font-family: monospace;
     letter-spacing: 0;
 }
@@ -56,7 +57,7 @@ nav {
 }
 
 li {
-    color: #C2C2C2;
+    color: #7c7c7c;
     font-size: 0.8em;
     letter-spacing: 6px;
     margin-top: 10px;
@@ -71,7 +72,7 @@ ul {
 }
 
 li:hover {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -153,7 +154,7 @@ li:hover {
 }
 
 .bg-drawing {
-    background-image: url(img_drawing/bg_drawing.jpg);
+    background-image: url(img_drawing/dessin1.jpg);
 }
 
 

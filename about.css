@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #EDEDED;
+    background-color: #ffffff;
     font-size: 17px;
     display: flex;
     overflow-x: hidden;
@@ -21,17 +21,24 @@ header {
 
 h1 {
     font-family: LeMurmure;
-    color: #8B8B8B;
+    color: rgb(0, 0, 0);
     font-size: 2.5em;
     letter-spacing: 10px;
     margin: 0;
 }
 
-h3 {
+h4 {
     font-family: Format;
     font-size: 0.5em;
     color: #8B8B8B;
     letter-spacing: 5px;
+}
+
+h5 {
+    font-family: Format;
+    font-size: 1em;
+    color: #000000;
+    letter-spacing: 2px;
 }
 
 .text-content-left p {
