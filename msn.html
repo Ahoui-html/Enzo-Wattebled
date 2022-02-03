@@ -51,19 +51,34 @@
             <!-- <img src="img_wave/animation.gif " alt="anim " /> -->
             <img src="img_msn/CHARTE-1.jpg " alt="visual1" />
             <img src="img_msn/CHARTE2.jpg " alt="visual1" />
-            <img src="img_msn/FACEBOOK.jpg " alt="visual1" />
+           
+            <img src="img_msn/1.jpg " alt="visual1" />
             <img src="img_msn/3.jpg " alt="visual3" />
+            <img src="img_msn/FB.png " alt="visual1" />
             <img src="img_msn/Billeterie.png " alt="visual2" />
             <img src="img_msn/artist-1.jpg " alt="visual2" />
             <img src="img_msn/7.png " alt="visual4" />
             <img src="img_msn/5.png " alt="visual4" />
             <img src="img_msn/6.png " alt="visual4" />
-         
-
         </div>
     </div>
 
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+
     <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+    <script>
+        function getPics() {} 
+        const imgs = document.querySelectorAll('.visual-content img');
+        const fullPage = document.querySelector('#fullpage');
+    
+        imgs.forEach(img => {
+         img.addEventListener('click', function() {
+          fullPage.style.backgroundImage = 'url(' + img.src + ')';
+          fullPage.style.display = 'flex';
+          });
+        });
+    </script>
 
     <script>
         var masonry = new Macy({
